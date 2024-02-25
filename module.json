@@ -1,0 +1,12 @@
+{
+    "id": "agent",
+    "title": "agent",
+    "version": "1.0.0",
+    "compatibility": {
+      "minimum": "11",
+      "verified": "11"
+    },
+    "esmodules": [
+      "script.js"
+    ]
+  }
