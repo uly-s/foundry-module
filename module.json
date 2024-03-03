@@ -1,12 +1,32 @@
 {
-    "id": "agent",
-    "title": "agent",
-    "version": "1.0.0",
-    "compatibility": {
-      "minimum": "11",
-      "verified": "11"
-    },
-    "esmodules": [
-      "script.js"
-    ]
-  }
+  "id": "module",
+  "title": "agent",
+  "description": "",
+  "version": "#{VERSION}#",
+  "library": "false",
+  "manifestPlusVersion": "1.2.0",
+  "compatibility": {
+    "minimum": 10,
+    "verified": 10,
+    "maximum": 11
+  },
+  "authors": [
+    {
+      "name": "The League of Extraordinary FVTT Developers",
+      "url": "https://github.com/League-of-Foundry-Developers",
+      "discord": "discordID#0001"
+    }
+  ],
+  "relationships": {
+    "systems": [],
+    "requires": []
+  },
+  "esmodules": [
+    "script.js"
+  ],
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
+  "license": "LICENSE",
+  "readme": "README.md",
+}
